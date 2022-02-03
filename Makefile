@@ -5,8 +5,10 @@
 ASCIIDOCTOR = asciidoctor
 ASCIIDOCTOR_PDF = $(ASCIIDOCTOR)-pdf
 DITAA = ditaa
-TARGETS = riscv-aclint.pdf
-TARGETS += riscv-aclint.html
+TARGETS = riscv-swi.pdf
+TARGETS += riscv-swi.html
+TARGETS += riscv-mtimer.pdf
+TARGETS += riscv-mtimer.html
 
 .PHONY: all
 all: $(IMAGES) $(TARGETS)
